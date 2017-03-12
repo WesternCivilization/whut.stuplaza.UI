@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="stuplaza_BgIndex.master.cs" Inherits="whut.stuplaza.UI.stuplaza_BgIndex" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>主页</title>
+    <script src="frontUI/frontjs/jquery-1.11.3.min.js"></script>
+    <link href="bkgroundcss/index.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header_left"><img src="bkgroundimg/title/sy_tit_logo.png" width="420" height="55"/></div>
+        <div class="header_right"><p><span>欢迎您：</span><span><%=Session["username"] %></span><a href="LoginSystem.aspx" class="cancel" >注销</a></p>
+        <%--   <p><span>当前时间:</span><span class="time_now"></span></p>--%>
+        </div>
+    </div>
+     <asp:ContentPlaceHolder ID="CPH2" runat="server">
+        </asp:ContentPlaceHolder>
+    <div id="box">
+     <div class="nav">
+        <div class="left">
+            <img src="bkgroundimg/title/circle3.png" id="cir3"/>
+            <img src="bkgroundimg/title/circle2.png" id="cir2"/>
+            <img src="bkgroundimg/title/circle1.png" id="cir1"/>
+            <img src="bkgroundimg/title/circle0.png" id="cir0"/>
+        </div>
+        <div class="location">
+            <img src="bkgroundimg/content/home.png" width="26" height="26" />
+        <asp:ContentPlaceHolder ID="CPH4" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+        <p><span>当前时间：</span><span class="time_now"></span></p>
+    </div>
+    <div class="left">
+        <div class="leftsidebar_box">
+		<div class="line"></div>
+		<dl class="stu_article">
+			<dt>文章管理<img src="bkgroundimg/left/select_xl01.png"/></dt>
+			<dd class="first_dd">
+                <asp:HyperLink ID="ArticleList" runat="server" NavigateUrl="~/ShowArticle.aspx">文章列表</asp:HyperLink></dd>
+            <dd>
+                <asp:HyperLink ID="ArticleAdd" runat="server" NavigateUrl="~/AddArticle.aspx">添加文章</asp:HyperLink></dd>
+		</dl>
+	
+		<dl class="stu_file">
+			<dt>文件管理<img src="bkgroundimg/left/select_xl01.png"/></dt>
+			<dd class="first_dd">
+                <asp:HyperLink ID="FileManager" runat="server" NavigateUrl="~/ShowFile.aspx">文件列表</asp:HyperLink></dd>
+			<dd>
+                <asp:HyperLink ID="FileAdd" runat="server" NavigateUrl="~/AddFile.aspx">添加文件</asp:HyperLink></dd>
+		</dl>
+	
+		<dl class="stu_manu">
+			<dt>稿件管理<img src="bkgroundimg/left/select_xl01.png"/></dt>
+			<dd class="first_dd">
+                <asp:HyperLink ID="ArticleInfo" runat="server" NavigateUrl="~/ReviewManu.aspx">稿件审核</asp:HyperLink></dd>
+            <dd>
+              <asp:HyperLink ID="ArticleManager" runat="server" NavigateUrl="~/ReviewManuManager.aspx">稿件管理</asp:HyperLink></dd>
+             <dd>
+              <asp:HyperLink ID="ArticleNo" runat="server" NavigateUrl="~/ReviewManuNo.aspx">审核未通过稿件</asp:HyperLink></dd>
+            <dd>
+              <asp:HyperLink ID="ArticleCount" runat="server" NavigateUrl="~/ReviewManuCount.aspx">稿件统计</asp:HyperLink></dd>
+
+		</dl>
+	
+		<dl class="stu_admin">
+			<dt>系统角色管理<img src="bkgroundimg/left/select_xl01.png"/></dt>
+			<dd class="first_dd">
+                <asp:HyperLink ID="AdminManager" runat="server" NavigateUrl="~/ShowUser.aspx">角色管理</asp:HyperLink></dd>
+            <dd>
+                <asp:HyperLink ID="AdminAdd" runat="server" NavigateUrl="~/AddUser.aspx">角色添加</asp:HyperLink></dd>
+		</dl>
+	
+		<dl class="stu_topic">
+			<dt>专题管理<img src="bkgroundimg/left/select_xl01.png"/></dt>
+			<dd class="first_dd">
+                <asp:HyperLink ID="TopicManger" runat="server" NavigateUrl="~/ShowTopic.aspx">专题管理</asp:HyperLink></dd>
+		   <dd>
+                <asp:HyperLink ID="TopicAdd" runat="server" NavigateUrl="~/AddTopic.aspx">专题添加</asp:HyperLink></dd>
+         </dl>
+		<dl class="stu_column">
+			<dt>栏目管理<img src="bkgroundimg/left/select_xl01.png"/></dt>
+			<dd class="first_dd">
+                <asp:HyperLink ID="ColumnsManager" runat="server" NavigateUrl="~/ShowColumn.aspx">栏目展示</asp:HyperLink></dd>
+			<dd>
+                <asp:HyperLink ID="ColumnsAdd" runat="server" NavigateUrl="~/AddColumn.aspx">栏目添加</asp:HyperLink></dd>
+		</dl>
+	
+		<dl class="stu_imgchange">
+			<dt>首页大图管理<img src="bkgroundimg/left/select_xl01.png"/></dt>
+			<dd class="first_dd">
+                <asp:HyperLink ID="PicChange" runat="server" NavigateUrl="~/ChangeImage.aspx">首页大图更换</asp:HyperLink></dd>
+		</dl>
+        </div>
+        </div>
+    
+       <div class="right">
+            <div class="content">
+        <asp:ContentPlaceHolder ID="CPH1" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+     </div>
+     </div>
+    
+    <script>
+
+        $(function () {
+            $("#icon").click(function () {
+                $(this).hide();
+                $(".main").slideUp(800);
+                $("#box").css({'width':'auto','height':'auto'});
+
+            });
+            BindLeftBarClick();
+            setInterval(GetNowTime, 1000);
+            
+
+        })        function BindLeftBarClick() {
+            $(".leftsidebar_box dt").click(function () {
+                $(this).css({ "background-color": "#317eb4" })
+                $(this).parent().siblings().children('dt').css({ "background-color": "#303641" })
+                /*                $(this).css({ "background-color": "#3992d0" });*/
+                $(this).parent().find('dd').removeClass("menu_chioce");
+                $(".leftsidebar_box dt img").attr("src", "bkgroundimg/left/select_xl01.png");
+                $(this).parent().find('img').attr("src", "bkgroundimg/left/select_xl.png");
+                $(".menu_chioce").slideUp();
+                $(this).parent().find('dd').slideToggle();
+                $(this).parent().find('dd').addClass("menu_chioce");
+            });
+        }        //获取当前时间显示        function GetNowTime() {
+                $.ajax({
+                    url: "getdate.ashx",
+                    data: {},
+                    type: "get",
+                    cache:false,
+                    success: function (data) {
+                        $(".time_now").text(data);
+                    }
+                })        }      
+</script>
+</body>
+</html>

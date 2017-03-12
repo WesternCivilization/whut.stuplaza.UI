@@ -1,0 +1,68 @@
+﻿          
+ <!--header-->
+                <div id="header">
+                    <div class="tit_logo"></div>
+                    <div class="tit_right">
+                        <form id="form" name="searchform" method="get" action="" target="_blank" style="background-image: url('images/tit/hrader.jpg ');">
+                            <div class="searchform">
+                                <input type="text" name="searchword" id="searchword" autocomplete="off" />
+                                <img src="images/tit/searchIcon.png"  onclick="Search()" />
+                            </div>
+                            <div class="comfirm">
+                                <img src="images/tit/search.png"  onclick="Search()"/>
+                            </div>
+                        </form>
+                        <!--得到焦点事件-->
+                        <script type="text/javascript">
+                      $(document).ready(function () {
+                          $("input[name='searchword']").focus(function () {  //得到焦点
+                              $(this).css("color", "#000");
+                          });
+                      });
+                        </script>
+                    </div>
+                </div>
+                <!--12个链接导航-->
+                <div id="nav">
+                    <ul>
+                        <li class="bmjs"><a href="stuplaza_FirstColumn.aspx?firstcolumn=部门介绍" target="_blank">部门介绍</a></li>
+                        <li class="sxjy"><a href="stuplaza_FirstColumn.aspx?firstcolumn=思想教育" target="_blank">思想教育</a></li>
+                        <li class="xsgl"><a href="stuplaza_FirstColumn.aspx?firstcolumn=学生管理" target="_blank">学生管理</a></li>
+                        <li class="xszz"><a href="http://zxfz.whut.edu.cn" target="_blank">学生资助</a></li>
+                        <li class="xsyq"><a href="stuplaza_FirstColumn.aspx?firstcolumn=学生园区" target="_blank">学生园区</a></li>
+                        <li class="dwjs" style="margin-right:0;"><a href="stuplaza_FirstColumn.aspx?firstcolumn=队伍建设" target="_blank">队伍建设</a></li>
+                        <li class="xljk"><a href="stuplaza_FirstColumn.aspx?firstcolumn=心理健康" target="_blank">心理导航</a></li>
+                        <li class="zsgz"><a href="http://zs.whut.edu.cn" target="_blank">招生工作</a></li>
+                        <li class="jycy"><a href="http://scc.whut.edu.cn" target="_blank">就业创业</a></li>
+                        <li class="gfjy"><a href="stuplaza_FirstColumn.aspx?firstcolumn=国防教育" target="_blank">国防教育</a></li>
+                        <li class="lgqn"><a href="http://youth.whut.edu.cn" target="_blank">理工青年</a></li>
+                        <li class="yzfw"><a href="stuplaza_FirstColumn.aspx?firstcolumn=信息公开" target="_blank">信息公开</a></li>
+                    </ul>
+                </div>
+                <!--3个悬停按钮-->
+                <div class="hover_btn">
+                    <ul>
+                        <li>
+                            <a href="OnlineSubmit.html" target="_blank" class="zxtg">在线投稿</a>
+                        </li>
+                        <li>
+                            <a href="#" class="bzxx" onclick="Showbox()">部长信箱</a>
+                        </li>
+                        <li>
+                            <a href="stuplaza_Index.aspx" class="fhzy">返回主页</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--部长信箱弹出层-->
+                <div id="bg" class="bg"></div>
+                <div id="mailbox" class="mailbox">
+                    <div class="mailtop">
+                        <img src="images/hover_btn/close4.jpg" width="28" height="28" onclick="Close()" />
+                    </div>
+                    <div class="mailcont">
+                        <p>您若有任何问题欢迎联系学工部部长！<br />部长邮箱为：</p>
+                        <p>xuegongbu@whut.edu.cn</p>
+                        <button type="button" onclick="Mail()">登录邮箱</button>
+                    </div>
+                </div>
+

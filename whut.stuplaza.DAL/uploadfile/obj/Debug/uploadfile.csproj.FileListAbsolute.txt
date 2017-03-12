@@ -1,0 +1,5 @@
+E:\网页\2015.7.22\uploadfile\bin\uploadfile.dll
+E:\网页\2015.7.22\uploadfile\bin\uploadfile.pdb
+E:\网页\2015.7.22\uploadfile\obj\Debug\uploadfile.csprojResolveAssemblyReference.cache
+E:\网页\2015.7.22\uploadfile\obj\Debug\uploadfile.dll
+E:\网页\2015.7.22\uploadfile\obj\Debug\uploadfile.pdb

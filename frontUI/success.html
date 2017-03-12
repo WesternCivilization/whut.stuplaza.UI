@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>投稿成功</title>
+<link rel="shortcut icon" href="images/tit/icon.png" type="image/x-icon" />
+<link rel="stylesheet" href="frontcss/common.css" type="text/css" />
+<link rel="stylesheet" href="frontcss/success.css" type="text/css" />
+<script type="text/javascript" src="frontjs/jquery-1.11.3.min.js"></script>
+<!--搜索功能-->
+<script type="text/javascript">
+  	 function Search(){
+  	 //这个a的值就是我们在输入框里面的值
+  	 var a = document.searchform.searchword.value;
+  	 window.open("http://www.baidu.com/s?wd=" + a);
+  	 return false;                    
+  	 }    
+</script>
+<!--页面自动跳转-->
+<script type="text/javascript"> 
+    function countDown(secs,surl){     
+    //alert(surl);     
+        var time = document.getElementById('time');
+		time.innerHTML = secs;
+        if(--secs > 0){     
+            setTimeout("countDown("+secs+",'"+surl+"')",1000);     
+        }     
+        else{       
+            location.href = surl;     
+        }     
+    }  
+	window.onload = function(){
+	    countDown(5,'stuplaza_Index.aspx'); //这里放首页的链接
+	}	
+</script> 
+</head>
+
+<body>
+    <!--<div id="web_bg">
+        <img style="position:fixed;" src="images/tit/bg_02.png" height="60%" width="100%" />
+    </div>-->
+    <div id="container">
+        <!--header-->
+        <div id="header">
+            <div class="tit_logo"></div>
+            <div class="tit_right">
+
+                <form id="form" name="searchform" method="get" action="" target="_blank">
+                    <div class="searchform">
+                        <input type="text" name="searchword" id="searchword" placeholder="请输入关键词" autocomplete="off" />
+                        <img src="images/tit/search_icon.png" width="21" height="21" onclick="Search()" />
+                    </div>
+                </form>
+
+                <script type="text/javascript">
+            $(document).ready(function(){
+                $("input[name='searchword']").focus(function(){  //得到焦点
+		            $(this).css("color", "#000");
+                });
+            });
+                </script>
+            </div>
+        </div>
+
+	<div id="main">
+        <div id="content">
+            <div class="top">
+                <img src="images/list_page/submission/tick.png" width="136" height="136" />
+                <img src="images/list_page/submission/success2.png"  />
+            </div>
+            <div class="bottom">
+                <p>您的稿件已成功提交，请等待管理员审核！</p>
+                <p>您可以点击下面按钮选择【继续投稿】，若无操作则<span class="time" id="time">5</span>秒后将自动跳转到首页。</p>
+                <img src="images/list_page/submission/fenjiexian.png" />
+                <button type="button" name="again" onclick="location.href='OnlineSubmit.html'">继续投稿</button>              
+            </div>
+        
+        </div>
+    </div>
+    </div>	    
+</body>
+</html>

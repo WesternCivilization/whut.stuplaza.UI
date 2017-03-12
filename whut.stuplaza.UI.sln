@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whut.stuplaza.UI", "whut.stuplaza.UI.csproj", "{43C6E152-413F-4CC4-A361-F4001B2EA29F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whut.stuplaza.BLL", "whut.stuplaza.BLL\whut.stuplaza.BLL.csproj", "{79962F90-527B-4757-B89E-C2AE74BD3913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whut.stuplaza.MODEL", "whut.stuplaza.MODEL\whut.stuplaza.MODEL.csproj", "{E85E8C33-045F-4A8C-9A5F-C0A0A5111066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whut.stuplaza.COMMON", "whut.stuplaza.COMMON\whut.stuplaza.COMMON.csproj", "{E9552A34-886C-4EAF-A59D-00AA37FC5FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whut.stuplaza.DAL", "whut.stuplaza.DAL\whut.stuplaza.DAL.csproj", "{7A836258-88FE-4973-BB49-1CD892B2FE4B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "net", "plugin\Ueditor\net\", "{01D18A9E-EBA6-450B-A034-0496492BDA00}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57456"
+		Debug.AspNetCompiler.PhysicalPath = "plugin\Ueditor\net\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57456\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57456"
+		Release.AspNetCompiler.PhysicalPath = "plugin\Ueditor\net\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57456\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57456"
+		SlnRelativePath = "plugin\Ueditor\net\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43C6E152-413F-4CC4-A361-F4001B2EA29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C6E152-413F-4CC4-A361-F4001B2EA29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C6E152-413F-4CC4-A361-F4001B2EA29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C6E152-413F-4CC4-A361-F4001B2EA29F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79962F90-527B-4757-B89E-C2AE74BD3913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79962F90-527B-4757-B89E-C2AE74BD3913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79962F90-527B-4757-B89E-C2AE74BD3913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79962F90-527B-4757-B89E-C2AE74BD3913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85E8C33-045F-4A8C-9A5F-C0A0A5111066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85E8C33-045F-4A8C-9A5F-C0A0A5111066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85E8C33-045F-4A8C-9A5F-C0A0A5111066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85E8C33-045F-4A8C-9A5F-C0A0A5111066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9552A34-886C-4EAF-A59D-00AA37FC5FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9552A34-886C-4EAF-A59D-00AA37FC5FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9552A34-886C-4EAF-A59D-00AA37FC5FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9552A34-886C-4EAF-A59D-00AA37FC5FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A836258-88FE-4973-BB49-1CD892B2FE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A836258-88FE-4973-BB49-1CD892B2FE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A836258-88FE-4973-BB49-1CD892B2FE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A836258-88FE-4973-BB49-1CD892B2FE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D18A9E-EBA6-450B-A034-0496492BDA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D18A9E-EBA6-450B-A034-0496492BDA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D18A9E-EBA6-450B-A034-0496492BDA00}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D18A9E-EBA6-450B-A034-0496492BDA00}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

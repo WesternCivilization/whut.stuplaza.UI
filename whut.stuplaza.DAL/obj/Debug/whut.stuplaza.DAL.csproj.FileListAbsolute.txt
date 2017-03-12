@@ -1,0 +1,225 @@
+E:\网页\2015.7.22\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\网页\2015.7.22\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\网页\2015.7.22\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\网页\2015.7.22\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\网页\2015.7.22\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\网页\2015.7.22\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\网页\2015.7.22\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\网页\2015.7.22\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\网页\2015.7.22\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\学工广场汇总\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\学工广场汇总\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\学工广场汇总\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\wy\Desktop\学工广场汇总\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\wy\Desktop\学工广场汇总\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\wy\Desktop\学工广场汇总\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\wy\Desktop\学工广场汇总\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\wy\Desktop\学工广场汇总\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\学工广场汇总\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI - 副本\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI - 副本\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI - 副本\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI - 副本\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI - 副本\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI - 副本\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI - 副本\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI - 副本\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI - 副本\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\学工广场修改\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\wy\Desktop\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\wy\Desktop\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\wy\Desktop\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\wy\Desktop\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\wy\Desktop\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\wy\Desktop\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\wy\Desktop\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\wy\Desktop\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\wy\Desktop\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\wy\Desktop\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\新建文件夹\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\新建文件夹\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\wy\Desktop\新建文件夹\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\wy\Desktop\新建文件夹\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\wy\Desktop\新建文件夹\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\wy\Desktop\新建文件夹\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\wy\Desktop\新建文件夹\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\wy\Desktop\新建文件夹\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\wy\Desktop\新建文件夹\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+E:\学工广场项目\学工广场修改\周续黄修改版\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\学工广场项目\学工广场修改\周续黄修改版\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\学工广场项目\学工广场修改\周续黄修改版\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\学工广场项目\学工广场修改\周续黄修改版\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\学工广场项目\学工广场修改\周续黄修改版\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\学工广场项目\学工广场修改\周续黄修改版\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\学工广场项目\学工广场修改\周续黄修改版\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\学工广场项目\学工广场修改\周续黄修改版\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\学工广场项目\学工广场修改\周续黄修改版\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+E:\WHUT\信管协会\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\WHUT\信管协会\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\WHUT\信管协会\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\WHUT\信管协会\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\WHUT\信管协会\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\WHUT\信管协会\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\WHUT\信管协会\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\WHUT\信管协会\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\WHUT\信管协会\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20-前端更改\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20-前端更改\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20-前端更改\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20-前端更改\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20-前端更改\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20-前端更改\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20-前端更改\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20-前端更改\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI -12.20-前端更改\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\项目\学工广场\程序\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\项目\学工广场\程序\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\项目\学工广场\程序\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\项目\学工广场\程序\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\项目\学工广场\程序\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI2016.1.24\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI2016.1.24\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI2016.1.24\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI2016.1.24\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI2016.1.24\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI2016.1.24\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI2016.1.24\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\项目\学工广场\程序\whut.stuplaza.UI2016.1.24\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI2016.1.24\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\项目\学工广场\程序\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\项目\学工广场\程序\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\项目\学工广场\程序\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\81064\Desktop\Backup\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\81064\Desktop\Backup\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\81064\Desktop\Backup\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\81064\Desktop\Backup\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\81064\Desktop\Backup\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\81064\Desktop\Backup\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\81064\Desktop\Backup\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\81064\Desktop\Backup\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\81064\Desktop\Backup\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+E:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+D:\项目\学工广场\whut.stuplaza.UI-new\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+D:\项目\学工广场\whut.stuplaza.UI-new\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+D:\项目\学工广场\whut.stuplaza.UI-new\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+D:\项目\学工广场\whut.stuplaza.UI-new\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+D:\项目\学工广场\whut.stuplaza.UI-new\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+D:\项目\学工广场\whut.stuplaza.UI-new\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+D:\项目\学工广场\whut.stuplaza.UI-new\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+D:\项目\学工广场\whut.stuplaza.UI-new\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+D:\项目\学工广场\whut.stuplaza.UI-new\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\81064\OneDrive\项目\学工\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\81064\OneDrive\项目\学工\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\81064\OneDrive\项目\学工\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\81064\OneDrive\项目\学工\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\81064\OneDrive\项目\学工\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\81064\OneDrive\项目\学工\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\81064\OneDrive\项目\学工\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\81064\OneDrive\项目\学工\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\81064\OneDrive\项目\学工\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\zhouxuhuang\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\zhouxuhuang\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\zhouxuhuang\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\zhouxuhuang\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\zhouxuhuang\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\zhouxuhuang\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\zhouxuhuang\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\zhouxuhuang\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\zhouxuhuang\项目\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\zhouz\Desktop\MouseWithoutBorders\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\zhouz\Desktop\MouseWithoutBorders\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\zhouz\Desktop\MouseWithoutBorders\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\zhouz\Desktop\MouseWithoutBorders\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\zhouz\Desktop\MouseWithoutBorders\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\zhouz\Desktop\MouseWithoutBorders\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\zhouz\Desktop\MouseWithoutBorders\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\zhouz\Desktop\MouseWithoutBorders\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\zhouz\Desktop\MouseWithoutBorders\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\zhouz\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\zhouz\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\zhouz\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\zhouz\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\zhouz\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\zhouz\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\zhouz\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\zhouz\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\zhouz\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+D:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+D:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+D:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+D:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+D:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+D:\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+D:\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+D:\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+D:\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\zhouxuhuang\项目\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\zhouxuhuang\项目\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\zhouxuhuang\项目\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\zhouxuhuang\项目\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\zhouxuhuang\项目\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\zhouxuhuang\项目\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\zhouxuhuang\项目\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\zhouxuhuang\项目\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\zhouxuhuang\项目\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+C:\Users\zhou\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+C:\Users\zhou\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+C:\Users\zhou\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+C:\Users\zhou\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+C:\Users\zhou\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+C:\Users\zhou\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+C:\Users\zhou\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+C:\Users\zhou\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+C:\Users\zhou\OneDrive\项目\学工广场\stuplaza\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb
+E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.dll
+E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.DAL.pdb
+E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.dll
+E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.csprojResolveAssemblyReference.cache
+E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.dll
+E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.DAL\obj\Debug\whut.stuplaza.DAL.pdb

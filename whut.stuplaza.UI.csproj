@@ -1,0 +1,1539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43C6E152-413F-4CC4-A361-F4001B2EA29F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>whut.stuplaza.UI</RootNamespace>
+    <AssemblyName>whut.stuplaza.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LitJSON">
+      <HintPath>..\ajaxAction\Library\LitJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\muz\Desktop\ueditor1_4_3_3-utf8-net\utf8-net\Bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddArticle.aspx" />
+    <Content Include="AddColumn.aspx" />
+    <Content Include="AddFile.aspx" />
+    <Content Include="AddTopic.aspx" />
+    <Content Include="AddUser.aspx" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.pdb" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bkgroundcss\AddArticle.css" />
+    <Content Include="bkgroundcss\admin.css" />
+    <Content Include="bkgroundcss\DateTimePicker.css" />
+    <Content Include="bkgroundcss\default.css" />
+    <Content Include="bkgroundcss\index.css" />
+    <Content Include="bkgroundcss\jquery-ui.css" />
+    <Content Include="bkgroundcss\pintuer.css" />
+    <Content Include="bkgroundcss\stuplaza.css" />
+    <Content Include="bkgroundimg\title\welcome_bg.png" />
+    <Content Include="bkgroundimg\title\welcome_icon.png" />
+    <Content Include="bkgroundjs\datepick\jquery-1.11.0.min.js" />
+    <Content Include="bkgroundjs\datepick\jquery-ui-1.10.4.custom.min.js" />
+    <Content Include="bkgroundjs\datepick\jquery-ui-timepicker-addon.js" />
+    <Content Include="bkgroundjs\datepick\jquery-ui-timepicker-zh-CN.js" />
+    <Content Include="bkgroundjs\datepick\jquery.ui.datepicker-zh-CN.js" />
+    <Content Include="bkgroundjs\DateTimePicker2.js" />
+    <Content Include="bkgroundjs\jquery.idTabs.min.js" />
+    <Content Include="EditManuScript.aspx" />
+    <Content Include="frontUI\error.html" />
+    <Content Include="bkgroundcss\table.css" />
+    <Content Include="bkgroundcss\tableStyle.css" />
+    <Content Include="bkgroundcss\uploadify.css" />
+    <Content Include="bkgroundimg\content\background.png" />
+    <Content Include="bkgroundimg\content\center.gif" />
+    <Content Include="bkgroundimg\content\center0.gif" />
+    <Content Include="bkgroundimg\content\dotted.png" />
+    <Content Include="bkgroundimg\content\home.png" />
+    <Content Include="bkgroundimg\content\icon.jpg" />
+    <Content Include="bkgroundimg\content\menu.jpg" />
+    <Content Include="bkgroundimg\content\sub_title.png" />
+    <Content Include="bkgroundimg\left\app.png" />
+    <Content Include="bkgroundimg\left\app_current.png" />
+    <Content Include="bkgroundimg\left\channel.png" />
+    <Content Include="bkgroundimg\left\channel_current.png" />
+    <Content Include="bkgroundimg\left\cloud.png" />
+    <Content Include="bkgroundimg\left\cloud_current.png" />
+    <Content Include="bkgroundimg\left\custom.png" />
+    <Content Include="bkgroundimg\left\custom_current.png" />
+    <Content Include="bkgroundimg\left\home.png" />
+    <Content Include="bkgroundimg\left\home_current.png" />
+    <Content Include="bkgroundimg\left\line_bg.png" />
+    <Content Include="bkgroundimg\left\select_xl.png" />
+    <Content Include="bkgroundimg\left\select_xl01.png" />
+    <Content Include="bkgroundimg\left\source.png" />
+    <Content Include="bkgroundimg\left\source_current.png" />
+    <Content Include="bkgroundimg\left\statistics.png" />
+    <Content Include="bkgroundimg\left\statistics_current.png" />
+    <Content Include="bkgroundimg\left\syetem_management.png" />
+    <Content Include="bkgroundimg\left\syetem_management_c.png" />
+    <Content Include="bkgroundimg\left\system.png" />
+    <Content Include="bkgroundimg\left\system_current.png" />
+    <Content Include="bkgroundimg\title\background.png" />
+    <Content Include="bkgroundimg\title\circle.jpg" />
+    <Content Include="bkgroundimg\title\circle0.png" />
+    <Content Include="bkgroundimg\title\circle1.png" />
+    <Content Include="bkgroundimg\title\circle2.png" />
+    <Content Include="bkgroundimg\title\circle3.png" />
+    <Content Include="bkgroundimg\title\floor_bg.jpg" />
+    <Content Include="bkgroundimg\title\floor_bg1.jpg" />
+    <Content Include="bkgroundimg\title\floor_bg3.jpg" />
+    <Content Include="bkgroundimg\title\icon.jpg" />
+    <Content Include="bkgroundimg\title\icon.png" />
+    <Content Include="bkgroundimg\title\icon2.jpg" />
+    <Content Include="bkgroundimg\title\sy_tit_logo.png" />
+    <Content Include="bkgroundjs\ArticleKindEditor\kindeditor.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\anchor\anchor.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\clearhtml\clearhtml.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\code\code.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\code\prettify.css" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\code\prettify.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\emoticons.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\0.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\1.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\10.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\100.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\101.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\102.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\103.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\104.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\105.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\106.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\107.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\108.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\109.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\11.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\110.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\111.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\112.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\113.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\114.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\115.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\116.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\117.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\118.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\119.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\12.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\120.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\121.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\122.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\123.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\124.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\125.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\126.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\127.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\128.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\129.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\13.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\130.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\131.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\132.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\133.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\134.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\14.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\15.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\16.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\17.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\18.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\19.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\2.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\20.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\21.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\22.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\23.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\24.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\25.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\26.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\27.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\28.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\29.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\3.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\30.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\31.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\32.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\33.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\34.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\35.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\36.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\37.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\38.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\39.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\4.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\40.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\41.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\42.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\43.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\44.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\45.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\46.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\47.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\48.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\49.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\5.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\50.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\51.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\52.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\53.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\54.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\55.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\56.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\57.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\58.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\59.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\6.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\60.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\61.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\62.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\63.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\64.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\65.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\66.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\67.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\68.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\69.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\7.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\70.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\71.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\72.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\73.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\74.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\75.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\76.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\77.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\78.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\79.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\8.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\80.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\81.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\82.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\83.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\84.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\85.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\86.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\87.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\88.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\89.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\9.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\90.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\91.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\92.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\93.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\94.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\95.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\96.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\97.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\98.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\99.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\emoticons\images\static.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\filemanager\filemanager.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\filemanager\images\file-16.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\filemanager\images\file-64.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\filemanager\images\folder-16.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\filemanager\images\folder-64.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\filemanager\images\go-up.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\flash\flash.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\image\image.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\image\images\align_left.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\image\images\align_right.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\image\images\align_top.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\image\images\refresh.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\insertfile\insertfile.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\lineheight\lineheight.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\link\link.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\map\map.html" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\map\map.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\media\media.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\pagebreak\pagebreak.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\plainpaste\plainpaste.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\preview\preview.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\quickformat\quickformat.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\table\table.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\template\html\1.html" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\template\html\2.html" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\template\html\3.html" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\template\template.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\plugins\wordpaste\wordpaste.js" />
+    <Content Include="bkgroundjs\ArticleKindEditor\themes\default\bg.gif" />
+    <Content Include="bkgroundjs\ArticleKindEditor\themes\default\default.css" />
+    <Content Include="bkgroundjs\ArticleKindEditor\themes\default\default.png" />
+    <Content Include="bkgroundjs\ArticleKindEditor\zh_CN.js" />
+    <Content Include="bkgroundjs\jquery-1.11.3.min.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\changelog.txt" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\accordion.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\calendar.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\combo.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\combobox.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\combogrid.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\combotree.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datagrid.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datagrid2.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datagrid3.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datagrid4.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datagrid5.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datebox.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datetimebox.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\demo.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\dialog.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\draggable.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\droppable.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\droppable1.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\droppable2.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\easyloader.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\form.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\layout.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\layout1.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\layout2.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\linkbutton.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\menu.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\menubutton.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\messager.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\numberbox.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\numberbox2.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\numberspinner.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\pagination.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\panel.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\panel2.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\progressbar.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\propertygrid.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\resizable.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\searchbox.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\slider.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\splitbutton.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\tabs.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\tabs_href_test.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\timespinner.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\tree.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\tree2.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\treegrid.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\treegrid2.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\treegrid3.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\validatebox.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\window.html" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\easyloader.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\jquery-1.8.0.min.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\jquery.easyui.min.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\licence_gpl.txt" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\license_commercial.txt" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-af.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-bg.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-ca.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-cs.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-cz.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-da.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-de.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-en.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-es.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-fr.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-it.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-nl.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-pt_BR.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-ru.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-tr.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-zh_CN.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\locale\easyui-lang-zh_TW.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.accordion.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.calendar.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.combo.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.combobox.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.combogrid.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.combotree.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.datagrid.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.datebox.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.datetimebox.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.dialog.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.draggable.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.droppable.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.form.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.layout.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.linkbutton.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.menu.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.menubutton.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.messager.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.numberbox.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.numberspinner.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.pagination.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.panel.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.parser.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.progressbar.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.propertygrid.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.resizable.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.searchbox.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.slider.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.spinner.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.splitbutton.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.tabs.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.timespinner.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.tree.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.treegrid.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.validatebox.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\plugins\jquery.window.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\readme.txt" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\easyloader.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.accordion.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.calendar.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.combobox.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.datebox.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.draggable.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.droppable.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.form.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.linkbutton.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.menu.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.parser.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.progressbar.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.propertygrid.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.resizable.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.slider.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.tabs.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\src\jquery.window.js" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\accordion.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\calendar.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\combo.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\combobox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\datagrid.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\datebox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\dialog.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\easyui.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\accordion_collapse.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\accordion_expand.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\blank.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\button_a_bg.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\button_plain_hover.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\button_span_bg.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\calendar_nextmonth.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\calendar_nextyear.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\calendar_prevmonth.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\calendar_prevyear.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\combo_arrow.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\datagrid_header_bg.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\datagrid_row_collapse.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\datagrid_row_expand.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\datagrid_sort_asc.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\datagrid_sort_desc.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\datagrid_title_bg.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\datebox_arrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\layout_arrows.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\menu.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\menu_downarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\menu_rightarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\menu_sep.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\menu_split_downarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\messager_error.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\messager_info.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\messager_question.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\messager_warning.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\pagination_first.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\pagination_last.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\pagination_load.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\pagination_loading.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\pagination_next.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\pagination_prev.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\panel_loading.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\panel_title.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\panel_tools.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\searchbox_button.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\slider_handle.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\spinner_arrow_down.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\spinner_arrow_up.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tabs_active.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tabs_close.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tabs_enabled.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tabs_leftarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tabs_rightarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_arrows.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_checkbox_0.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_checkbox_1.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_checkbox_2.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_dnd_no.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_dnd_yes.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_elbow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_file.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_folder.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_folder_open.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\tree_loading.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\validatebox_pointer.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\validatebox_warning.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\layout.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\linkbutton.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\menu.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\menubutton.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\messager.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\pagination.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\panel.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\progressbar.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\propertygrid.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\searchbox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\slider.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\spinner.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\splitbutton.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\tabs.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\tree.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\validatebox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\window.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\accordion.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\calendar.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\combo.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\combobox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\datagrid.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\datebox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\dialog.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\easyui.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\accordion_collapse.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\accordion_expand.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\blank.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\button_a_bg.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\button_plain_hover.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\button_span_bg.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\calendar_nextmonth.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\calendar_nextyear.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\calendar_prevmonth.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\calendar_prevyear.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\combo_arrow.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\datagrid_header_bg.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\datagrid_row_collapse.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\datagrid_row_expand.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\datagrid_sort_asc.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\datagrid_sort_desc.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\datagrid_title_bg.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\datebox_arrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\layout_arrows.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\menu.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\menu_downarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\menu_rightarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\menu_sep.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\menu_split_downarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\messager_error.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\messager_info.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\messager_question.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\messager_warning.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\pagination_first.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\pagination_last.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\pagination_load.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\pagination_loading.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\pagination_next.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\pagination_prev.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\panel_loading.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\panel_title.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\panel_tools.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\searchbox_button.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\slider_handle.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\spinner_arrow_down.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\spinner_arrow_up.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tabs_close.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tabs_enabled.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tabs_leftarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tabs_rightarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_arrows.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_checkbox_0.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_checkbox_1.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_checkbox_2.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_dnd_no.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_dnd_yes.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_elbow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_file.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_folder.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_folder_open.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\tree_loading.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\validatebox_pointer.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\validatebox_warning.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\layout.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\linkbutton.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\menu.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\menubutton.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\messager.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\pagination.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\panel.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\progressbar.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\propertygrid.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\searchbox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\slider.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\spinner.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\splitbutton.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\tabs.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\tree.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\validatebox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\window.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icon.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\back.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\blank.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\cancel.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\cut.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\edit_add.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\edit_remove.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\filesave.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\help.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\mini_add.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\mini_edit.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\mini_refresh.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\no.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\ok.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\pencil.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\print.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\redo.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\reload.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\search.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\sum.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\tip.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\icons\undo.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\accordion.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\calendar.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\combo.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\combobox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\datagrid.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\datebox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\dialog.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\easyui.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\accordion_collapse.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\accordion_expand.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\blank.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\calendar_nextmonth.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\calendar_nextyear.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\calendar_prevmonth.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\calendar_prevyear.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\combo_arrow.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\datagrid_row_collapse.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\datagrid_row_expand.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\datagrid_sort_asc.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\datagrid_sort_desc.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\datebox_arrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\layout_arrows.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\menu_downarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\menu_rightarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\menu_sep.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\menu_split_downarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\messager_error.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\messager_info.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\messager_question.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\messager_warning.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\pagination_first.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\pagination_last.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\pagination_load.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\pagination_loading.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\pagination_next.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\pagination_prev.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\panel_loading.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\panel_tools.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\searchbox_button.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\slider_handle.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tabs_close.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tabs_leftarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tabs_rightarrow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_arrows.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_checkbox_0.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_checkbox_1.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_checkbox_2.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_dnd_no.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_dnd_yes.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_elbow.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_file.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_folder.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_folder_open.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\tree_loading.gif" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\images\validatebox_warning.png" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\layout.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\linkbutton.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\menu.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\menubutton.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\messager.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\pagination.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\panel.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\progressbar.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\propertygrid.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\searchbox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\slider.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\splitbutton.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\tabs.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\tree.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\validatebox.css" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\metro\window.css" />
+    <Content Include="bkgroundjs\pintuer.js" />
+    <Content Include="bkgroundjs\uploadify\cancel.png" />
+    <Content Include="bkgroundjs\uploadify\expressInstall.swf" />
+    <Content Include="bkgroundjs\uploadify\jquery-1.3.2.min.js" />
+    <Content Include="bkgroundjs\uploadify\jquery.uploadify.v2.1.0.min.js" />
+    <Content Include="bkgroundjs\uploadify\swfobject.js" />
+    <Content Include="bkgroundjs\uploadify\uploadify.allglyphs.swf" />
+    <Content Include="bkgroundjs\uploadify\uploadify.swf" />
+    <Content Include="ChangeImage.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="EditArticle.aspx" />
+    <Content Include="EditColumn.aspx" />
+    <Content Include="EditInfoAdmin.aspx" />
+    <Content Include="EditReviewer.aspx" />
+    <Content Include="EditSysAdmin.aspx" />
+    <Content Include="EditTopic.aspx" />
+    <Content Include="frontUI\font\fontawesome-webfont.svg" />
+    <Content Include="frontUI\frontcss\common.css" />
+    <Content Include="frontUI\frontcss\font-awesome.min.css" />
+    <Content Include="frontUI\frontcss\froala_page.min.css" />
+    <Content Include="frontUI\frontcss\index.css" />
+    <Content Include="frontUI\frontcss\latest_news.css" />
+    <Content Include="frontUI\frontcss\listpagesector.css" />
+    <Content Include="frontUI\frontcss\list_page.css" />
+    <Content Include="frontUI\frontcss\more.css" />
+    <Content Include="frontUI\frontcss\online_submission.css" />
+    <Content Include="frontUI\frontcss\service_guide.css" />
+    <Content Include="frontUI\frontcss\service_guide_more.css" />
+    <Content Include="frontUI\frontcss\stu_park.css" />
+    <Content Include="frontUI\frontcss\success.css" />
+    <Content Include="frontUI\frontcss\tab_main.css" />
+    <Content Include="frontUI\frontcss\template.css" />
+    <Content Include="frontUI\frontcss\text.css" />
+    <Content Include="frontUI\frontcss\theme_list.css" />
+    <Content Include="frontUI\frontjs\editor.min.js" />
+    <Content Include="frontUI\frontjs\editor_ie8.min.js" />
+    <Content Include="frontUI\frontjs\index.js" />
+    <Content Include="frontUI\frontjs\jquery-1.11.1.js" />
+    <Content Include="frontUI\frontjs\jquery-1.11.3.min.js" />
+    <Content Include="frontUI\frontjs\jquery-1.7.js" />
+    <Content Include="frontUI\frontjs\jquery-1.7.min.js" />
+    <Content Include="frontUI\frontjs\plugins\char_counter.min.js" />
+    <Content Include="frontUI\frontjs\plugins\colors.min.js" />
+    <Content Include="frontUI\frontjs\plugins\file_upload.min.js" />
+    <Content Include="frontUI\frontjs\plugins\font_family.min.js" />
+    <Content Include="frontUI\frontjs\plugins\font_size.min.js" />
+    <Content Include="frontUI\frontjs\plugins\lists.min.js" />
+    <Content Include="frontUI\frontjs\plugins\media_manager.min.js" />
+    <Content Include="frontUI\frontjs\plugins\tables.min.js" />
+    <Content Include="frontUI\frontjs\share.js" />
+    <Content Include="frontUI\frontjs\validateForm.js" />
+    <Content Include="frontUI\images\banner\back1.jpg" />
+    <Content Include="frontUI\images\banner\back2.jpg" />
+    <Content Include="frontUI\images\banner\back3.jpg" />
+    <Content Include="frontUI\images\banner\back4.jpg" />
+    <Content Include="frontUI\images\banner\blackbar.png" />
+    <Content Include="frontUI\images\banner\notpresent.png" />
+    <Content Include="frontUI\images\banner\present.png" />
+    <Content Include="frontUI\images\banner\shouyedatu.png" />
+    <Content Include="frontUI\images\channel\chan_bg.png" />
+    <Content Include="frontUI\images\channel\dianfeichaxun.png" />
+    <Content Include="frontUI\images\channel\jiaowuxitong.png" />
+    <Content Include="frontUI\images\channel\kuaisutongdao.png" />
+    <Content Include="frontUI\images\channel\ligongguanwang.png" />
+    <Content Include="frontUI\images\channel\ligongtushuwang.png" />
+    <Content Include="frontUI\images\channel\shuzitushuguan.png" />
+    <Content Include="frontUI\images\channel\xiaoyuankafuwu.png" />
+    <Content Include="frontUI\images\channel\xuegongxitong.png" />
+    <Content Include="frontUI\images\cont_main\bg.png" />
+    <Content Include="frontUI\images\cont_main\default\changyong.png" />
+    <Content Include="frontUI\images\cont_main\default\hot_themes.png" />
+    <Content Include="frontUI\images\cont_main\default\jizhejie.png" />
+    <Content Include="frontUI\images\cont_main\default\list.png" />
+    <Content Include="frontUI\images\cont_main\default\newest_files.png" />
+    <Content Include="frontUI\images\cont_main\default\newest_news.png" />
+    <Content Include="frontUI\images\cont_main\default\plate_bg.png" />
+    <Content Include="frontUI\images\cont_main\default\recent_notice.png" />
+    <Content Include="frontUI\images\cont_main\default\taijiquan.png" />
+    <Content Include="frontUI\images\cont_main\default\tushuoxinwen.png" />
+    <Content Include="frontUI\images\cont_main\default\xinlijiankangjiaoyu.png" />
+    <Content Include="frontUI\images\cont_main\fwzn\fenlanxian.png" />
+    <Content Include="frontUI\images\cont_main\fwzn\list.png" />
+    <Content Include="frontUI\images\cont_main\fwzn\title_banshizhinan.png" />
+    <Content Include="frontUI\images\cont_main\fwzn\title_changyongxiazai.png" />
+    <Content Include="frontUI\images\cont_main\tzgg\date_bg.png" />
+    <Content Include="frontUI\images\cont_main\tzgg\early_tongzhigonggao.png" />
+    <Content Include="frontUI\images\cont_main\tzgg\list.png" />
+    <Content Include="frontUI\images\cont_main\tzgg\recent_tongzhigonggao.png" />
+    <Content Include="frontUI\images\cont_main\tzgg\view_more .png" />
+    <Content Include="frontUI\images\cont_main\xwdt\201412182342496601.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\date_bg.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\fengexian.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\jizhejie.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\list.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\school_news.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\taijiquan.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\tusshuoxinwen.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\view_more.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\xinlijiankang.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\xinwendongtai_hover.png" />
+    <Content Include="frontUI\images\cont_main\xwdt\xinwentoutiao.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\fenlanxian.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\jiaoyubu.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\jiaoyubu0.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\jiaoyubu1.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\jingweiwang.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\jingweiwang0.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\ligongzhisheng.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\ligongzhisheng0.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\title_kuaisutongdao.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\wangluoxinxizhongxin.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\wangluoxinxizhongxin0.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\white_bg .png" />
+    <Content Include="frontUI\images\cont_main\yqlj\xinguanxiehui.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\xinguanxiehui0.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\yanjiushenghui.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\yanjiushenghui0.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\youqinglianjie_hover.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\zhongguodaxueshengzaixian.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\zhongguodaxueshengzaixian0.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\zhongguodaxueshengzaixian1.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\zhongguogaoxiaojiuyelianmeng.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\zhongguogaoxiaojiuyelianmeng0.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\快速通道\dianfeichaxun.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\快速通道\jiaowuxitong.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\快速通道\ligongguanwang.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\快速通道\ligongtushuwang.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\快速通道\shuzitushuguan.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\快速通道\xiaoyuankafuwu.png" />
+    <Content Include="frontUI\images\cont_main\yqlj\快速通道\xuegongxitong.png" />
+    <Content Include="frontUI\images\cont_main\zdwj\early_files.png" />
+    <Content Include="frontUI\images\cont_main\zdwj\fenlanxian.png" />
+    <Content Include="frontUI\images\cont_main\zdwj\list.png" />
+    <Content Include="frontUI\images\cont_main\zdwj\title_changyongwenjian.png" />
+    <Content Include="frontUI\images\cont_main\zdwj\title_recent_files.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\anquanfazhijiaoyu_zhuanti.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\aqfz_pic.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\fenlanxian.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\hover_bg.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\sanxiangjiaoyu_black_transparant.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\sanxiangjiaoyu_wenzi_hover.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\sanxiangjiaoyu_zhuani.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\sxjy_pic.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\underline.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\white_bg.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\xfjs_pic.png" />
+    <Content Include="frontUI\images\cont_main\ztzx\xuefengjianshe_zhuanti.png" />
+    <Content Include="frontUI\images\cont_tab\fuwuzhinan.png" />
+    <Content Include="frontUI\images\cont_tab\fuwuzhinan_hover.png" />
+    <Content Include="frontUI\images\cont_tab\title_tongzhigonggao.png" />
+    <Content Include="frontUI\images\cont_tab\tongzhigonggao.png" />
+    <Content Include="frontUI\images\cont_tab\xinwendongtai.png" />
+    <Content Include="frontUI\images\cont_tab\xinwendongtai_hover.png" />
+    <Content Include="frontUI\images\cont_tab\youqinglianjie.png" />
+    <Content Include="frontUI\images\cont_tab\youqinglianjie_hover.png" />
+    <Content Include="frontUI\images\cont_tab\zhiduwenjian.png" />
+    <Content Include="frontUI\images\cont_tab\zhiduwenjian_hover.png" />
+    <Content Include="frontUI\images\cont_tab\zhuantizaixian.png" />
+    <Content Include="frontUI\images\cont_tab\zhuantizaixian_hover.png" />
+    <Content Include="frontUI\images\detail_page\404_sad_face.png" />
+    <Content Include="frontUI\images\detail_page\refresh_word.png" />
+    <Content Include="frontUI\images\detail_page\zhengwen\biao_ti_xia_hua_xian.png" />
+    <Content Include="frontUI\images\detail_page\zhengwen\friend_circle.png" />
+    <Content Include="frontUI\images\detail_page\zhengwen\friend_circle_hover.png" />
+    <Content Include="frontUI\images\detail_page\zhengwen\microblog_hover.png" />
+    <Content Include="frontUI\images\detail_page\zhengwen\microweb.png" />
+    <Content Include="frontUI\images\detail_page\zhengwen\p1.jpg" />
+    <Content Include="frontUI\images\detail_page\zhengwen\p2.jpg" />
+    <Content Include="frontUI\images\detail_page\zhengwen\p3.jpg" />
+    <Content Include="frontUI\images\detail_page\zhengwen\p4.jpg" />
+    <Content Include="frontUI\images\detail_page\zhengwen\QQ.png" />
+    <Content Include="frontUI\images\detail_page\zhengwen\QQ_hover.png" />
+    <Content Include="frontUI\images\detail_page\zhengwen\Qzone.png" />
+    <Content Include="frontUI\images\detail_page\zhengwen\Qzone_hover.png" />
+    <Content Include="frontUI\images\hover_btn\buzhangxinxiang.png" />
+    <Content Include="frontUI\images\hover_btn\buzhangxinxiang_hover.png" />
+    <Content Include="frontUI\images\hover_btn\close4.jpg" />
+    <Content Include="frontUI\images\hover_btn\fanhuizhuye.png" />
+    <Content Include="frontUI\images\hover_btn\fanhuizhuye_hover.png" />
+    <Content Include="frontUI\images\channel\fast_channel.png" />
+    <Content Include="frontUI\images\tit\headerlogo.png" />
+    <Content Include="frontUI\images\tit\hrader.jpg" />
+    <Content Include="frontUI\images\tit\narbar.jpg" />
+    <Content Include="frontUI\images\tit\search.png" />
+    <Content Include="frontUI\images\tit\searchbg.png" />
+    <Content Include="frontUI\images\tit\title.png" />
+    <Content Include="frontUI\images\channel\line.png" />
+    <Content Include="frontUI\images\hover_btn\zaixiantougao.png" />
+    <Content Include="frontUI\images\hover_btn\zaixiantougao_hover.png" />
+    <Content Include="frontUI\images\list_page\stu_park\0.png" />
+    <Content Include="frontUI\images\list_page\stu_park\1.png" />
+    <Content Include="frontUI\images\list_page\stu_park\2.png" />
+    <Content Include="frontUI\images\list_page\stu_park\3.png" />
+    <Content Include="frontUI\images\list_page\stu_park\4.png" />
+    <Content Include="frontUI\images\list_page\stu_park\5.png" />
+    <Content Include="frontUI\images\list_page\stu_park\6.png" />
+    <Content Include="frontUI\images\list_page\stu_park\7.png" />
+    <Content Include="frontUI\images\list_page\stu_park\8.png" />
+    <Content Include="frontUI\images\list_page\stu_park\9.png" />
+    <Content Include="frontUI\images\list_page\stu_park\background.png" />
+    <Content Include="frontUI\images\list_page\stu_park\changyonglianxifangshi0.png" />
+    <Content Include="frontUI\images\list_page\stu_park\fenlanxian.png" />
+    <Content Include="frontUI\images\list_page\stu_park\guizhangzhidu.png" />
+    <Content Include="frontUI\images\list_page\stu_park\guizhangzhidu0.png" />
+    <Content Include="frontUI\images\list_page\stu_park\lansebeijing.png" />
+    <Content Include="frontUI\images\list_page\stu_park\list.png" />
+    <Content Include="frontUI\images\list_page\stu_park\not_present_page.png" />
+    <Content Include="frontUI\images\list_page\stu_park\present_page.png" />
+    <Content Include="frontUI\images\list_page\stu_park\title_zuixindongtai.png" />
+    <Content Include="frontUI\images\list_page\stu_park\xiahuaxian.png" />
+    <Content Include="frontUI\images\list_page\stu_park\xianghou.png" />
+    <Content Include="frontUI\images\list_page\stu_park\xiangqian.png" />
+    <Content Include="frontUI\images\list_page\stu_park\xueguanhuidongtai.png" />
+    <Content Include="frontUI\images\list_page\stu_park\xueguanhuidongtai0.png" />
+    <Content Include="frontUI\images\list_page\stu_park\yuanqufenbu.png" />
+    <Content Include="frontUI\images\list_page\stu_park\yuanqufenbu0.png" />
+    <Content Include="frontUI\images\list_page\stu_park\zuixindongtai.png" />
+    <Content Include="frontUI\images\list_page\stu_park\zuixindongtai0.png" />
+    <Content Include="frontUI\images\list_page\submission\chongzhi.png" />
+    <Content Include="frontUI\images\list_page\submission\dark_bg.png" />
+    <Content Include="frontUI\images\list_page\submission\fenjiexian.png" />
+    <Content Include="frontUI\images\list_page\submission\quxiao.png" />
+    <Content Include="frontUI\images\list_page\submission\success2.png" />
+    <Content Include="frontUI\images\list_page\submission\tick.png" />
+    <Content Include="frontUI\images\list_page\submission\tijiao.png" />
+    <Content Include="frontUI\images\list_page\submission\tip1 .png" />
+    <Content Include="frontUI\images\list_page\submission\tip2.png" />
+    <Content Include="frontUI\images\list_page\submission\upload.png" />
+    <Content Include="frontUI\images\list_page\submission\view.png" />
+    <Content Include="frontUI\images\navi\bumenjieshao.png" />
+    <Content Include="frontUI\images\navi\duiwujianshe.png" />
+    <Content Include="frontUI\images\navi\guofangjiaoyu.png" />
+    <Content Include="frontUI\images\navi\jiuyechuangye.png" />
+    <Content Include="frontUI\images\navi\ligongqingnian.png" />
+    <Content Include="frontUI\images\navi\sixiangjiaoyu.png" />
+    <Content Include="frontUI\images\navi\xinlijiankang.png" />
+    <Content Include="frontUI\images\navi\xueshengguanli.png" />
+    <Content Include="frontUI\images\navi\xueshengyuanqu.png" />
+    <Content Include="frontUI\images\navi\xueshengzizhu.png" />
+    <Content Include="frontUI\images\navi\yizhanshifuwu.png" />
+    <Content Include="frontUI\images\navi\zhaoshenggongzuo.png" />
+    <Content Include="frontUI\images\tit\bg_02.png" />
+    <Content Include="frontUI\images\tit\bg_Index.png" />
+    <Content Include="frontUI\images\tit\head_title.png" />
+    <Content Include="frontUI\images\tit\icon.png" />
+    <Content Include="frontUI\images\tit\list_bg.png" />
+    <Content Include="frontUI\images\tit\search_icon.png" />
+    <Content Include="frontUI\images\tit\search_without_icon.png" />
+    <Content Include="frontUI\images\tit\sy_bg.png" />
+    <Content Include="frontUI\images\tit\sy_tit_logo.png" />
+    <Content Include="frontUI\images\tit\title_v11.png" />
+    <Content Include="frontUI\images\列表页\background\background.png" />
+    <Content Include="frontUI\images\列表页\footer\characters.png" />
+    <Content Include="frontUI\images\列表页\footer\footer_background.png" />
+    <Content Include="frontUI\images\列表页\footer\notcharacters.png" />
+    <Content Include="frontUI\images\列表页\head\search.png" />
+    <Content Include="frontUI\images\列表页\head\search_icon.png" />
+    <Content Include="frontUI\images\列表页\head\search_without_icon.png" />
+    <Content Include="frontUI\images\列表页\head\标题ver 1\big_title.png" />
+    <Content Include="frontUI\images\列表页\head\标题ver 1\school_badge.png" />
+    <Content Include="frontUI\images\列表页\head\标题ver 1\small_title.png" />
+    <Content Include="frontUI\images\列表页\head\标题ver 1\title_and_school_badge.png" />
+    <Content Include="frontUI\images\列表页\head\标题ver 2\biaoti_ver_2.png" />
+    <Content Include="frontUI\images\列表页\head\标题ver 2\shiliang_biaoti.png" />
+    <Content Include="frontUI\images\列表页\head\标题ver 2\xiao_hui.png" />
+    <Content Include="frontUI\images\列表页\head\标题ver 2\xue_gong_bu.png" />
+    <Content Include="frontUI\images\列表页\三个悬浮按键\buzhangxinxiang.png" />
+    <Content Include="frontUI\images\列表页\三个悬浮按键\fanhuizhuye.png" />
+    <Content Include="frontUI\images\列表页\三个悬浮按键\zaixiantougao.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\0.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\1.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\2.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\3.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\4.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\5.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\6.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\7.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\8.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\9.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\not_present_page.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\present_page.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\xianghou.png" />
+    <Content Include="frontUI\images\列表页\下一页上一页。。。\xiangqian.png" />
+    <Content Include="frontUI\images\列表页\位置条\wei_zhi_tiao_bei_jing.png" />
+    <Content Include="frontUI\images\列表页\右边栏\changyonglianxifangshi0.png" />
+    <Content Include="frontUI\images\列表页\右边栏\guizhangzhidu.png" />
+    <Content Include="frontUI\images\列表页\右边栏\guizhangzhidu0.png" />
+    <Content Include="frontUI\images\列表页\右边栏\lansebeijing.png" />
+    <Content Include="frontUI\images\列表页\右边栏\xiahuaxian.png" />
+    <Content Include="frontUI\images\列表页\右边栏\xueguanhuidongtai.png" />
+    <Content Include="frontUI\images\列表页\右边栏\xueguanhuidongtai0.png" />
+    <Content Include="frontUI\images\列表页\右边栏\yuanqufenbu.png" />
+    <Content Include="frontUI\images\列表页\右边栏\yuanqufenbu0.png" />
+    <Content Include="frontUI\images\列表页\右边栏\zuixindongtai.png" />
+    <Content Include="frontUI\images\列表页\右边栏\zuixindongtai0.png" />
+    <Content Include="frontUI\images\列表页\导航栏\bumenjieshao.png" />
+    <Content Include="frontUI\images\列表页\导航栏\duiwujianshe.png" />
+    <Content Include="frontUI\images\列表页\导航栏\guofangjiaoyu.png" />
+    <Content Include="frontUI\images\列表页\导航栏\jiuyechuangye.png" />
+    <Content Include="frontUI\images\列表页\导航栏\ligongqingnian.png" />
+    <Content Include="frontUI\images\列表页\导航栏\sixiangjiaoyu.png" />
+    <Content Include="frontUI\images\列表页\导航栏\xinlijiankang.png" />
+    <Content Include="frontUI\images\列表页\导航栏\xueshengguanli.png" />
+    <Content Include="frontUI\images\列表页\导航栏\xueshengyuanqu.png" />
+    <Content Include="frontUI\images\列表页\导航栏\xueshengzizhu.png" />
+    <Content Include="frontUI\images\列表页\导航栏\yizhanshifuwu.png" />
+    <Content Include="frontUI\images\列表页\导航栏\zhaoshenggongzuo.png" />
+    <Content Include="frontUI\images\列表页\最新动态\title_zuixindongtai.png" />
+    <Content Include="frontUI\images\列表页\最新动态\yin_dao_fang_kuai.png" />
+    <Content Include="frontUI\navigation.html" />
+    <Content Include="frontUI\OnlineSubmit.html" />
+    <Content Include="frontUI\stuplaza_articleList.aspx" />
+    <Content Include="frontUI\stuplaza_articleListBySector.aspx" />
+    <Content Include="frontUI\stuplaza_Column_xxgk.aspx" />
+    <Content Include="frontUI\stuplaza_filecomDetail.aspx" />
+    <Content Include="frontUI\stuplaza_fileDetail.aspx" />
+    <Content Include="frontUI\stuplaza_fileList.aspx" />
+    <Content Include="frontUI\stuplaza_fileListBySector.aspx" />
+    <Content Include="frontUI\stuplaza_FirstColDynmic.aspx" />
+    <Content Include="frontUI\stuplaza_FirstColStatic.aspx" />
+    <Content Include="frontUI\stuplaza_FirstColumn.aspx" />
+    <Content Include="frontUI\stuplaza_Index.aspx" />
+    <Content Include="frontUI\stuplaza_manuDetail.aspx" />
+    <Content Include="frontUI\stuplaza_manuList.aspx" />
+    <Content Include="frontUI\stuplaza_newsDetail.aspx" />
+    <Content Include="frontUI\stuplaza_noticeDetail.aspx" />
+    <Content Include="frontUI\stuplaza_serviceDetail.aspx" />
+    <Content Include="frontUI\stuplaza_serviceList.aspx" />
+    <Content Include="frontUI\stuplaza_topicList.aspx" />
+    <Content Include="frontUI\stuplaza_topicpicList.aspx" />
+    <Content Include="frontUI\success.html" />
+    <Content Include="ImgChange.aspx" />
+    <Content Include="LoginSystem.aspx" />
+    <Content Include="ReviewManuCount.aspx" />
+    <Content Include="ReviewManuManager.aspx" />
+    <Content Include="ReviewManu.aspx" />
+    <Content Include="ReviewManuNo.aspx" />
+    <Content Include="ShowArticle.aspx" />
+    <Content Include="ShowColumn.aspx" />
+    <Content Include="ShowFile.aspx" />
+    <Content Include="ShowTopic.aspx" />
+    <Content Include="ShowUser.aspx" />
+    <Content Include="TopicImage\aqfz_pic.png" />
+    <Content Include="TopicImage\sxjy_pic.png" />
+    <Content Include="TopicImage\xfjs_pic.png" />
+    <Content Include="TopicImage\zt1.png" />
+    <Content Include="TopicImage\zt2.png" />
+    <Content Include="TopicImage\zt3.png" />
+    <Content Include="TopicImage\zt4.png" />
+    <Content Include="TopicImage\zt5.png" />
+    <Content Include="TopicImage\zt6.png" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddArticle.aspx.cs">
+      <DependentUpon>AddArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddArticle.aspx.designer.cs">
+      <DependentUpon>AddArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddColumn.aspx.cs">
+      <DependentUpon>AddColumn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddColumn.aspx.designer.cs">
+      <DependentUpon>AddColumn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddFile.aspx.cs">
+      <DependentUpon>AddFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddFile.aspx.designer.cs">
+      <DependentUpon>AddFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddTopic.aspx.cs">
+      <DependentUpon>AddTopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddTopic.aspx.designer.cs">
+      <DependentUpon>AddTopic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArticleKindEditorProcess.ashx.cs">
+      <DependentUpon>ArticleKindEditorProcess.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ArticlePostHandle.ashx.cs">
+      <DependentUpon>ArticlePostHandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ArticleUploadHander.ashx.cs">
+      <DependentUpon>ArticleUploadHander.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Config.cs" />
+    <Compile Include="ConfigHandler.cs" />
+    <Compile Include="CrawlerHandler.cs" />
+    <Compile Include="Handler.cs" />
+    <Compile Include="ListFileHandler.cs" />
+    <Compile Include="NotSupportedHandler.cs" />
+    <Compile Include="PathFormater.cs" />
+    <Compile Include="UploadHandler.cs" />
+    <Compile Include="ChangeImage.aspx.cs">
+      <DependentUpon>ChangeImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeImage.aspx.designer.cs">
+      <DependentUpon>ChangeImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditArticle.aspx.cs">
+      <DependentUpon>EditArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditArticle.aspx.designer.cs">
+      <DependentUpon>EditArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditColumn.aspx.cs">
+      <DependentUpon>EditColumn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditColumn.aspx.designer.cs">
+      <DependentUpon>EditColumn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditInfoAdmin.aspx.cs">
+      <DependentUpon>EditInfoAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditInfoAdmin.aspx.designer.cs">
+      <DependentUpon>EditInfoAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditManuScript.aspx.cs">
+      <DependentUpon>EditManuScript.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditManuScript.aspx.designer.cs">
+      <DependentUpon>EditManuScript.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditReviewer.aspx.cs">
+      <DependentUpon>EditReviewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditReviewer.aspx.designer.cs">
+      <DependentUpon>EditReviewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditSysAdmin.aspx.cs">
+      <DependentUpon>EditSysAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditSysAdmin.aspx.designer.cs">
+      <DependentUpon>EditSysAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditTopic.aspx.cs">
+      <DependentUpon>EditTopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTopic.aspx.designer.cs">
+      <DependentUpon>EditTopic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileHandle.ashx.cs">
+      <DependentUpon>FileHandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\indexNewsHandle.ashx.cs">
+      <DependentUpon>indexNewsHandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\ProcessManuSubmit.ashx.cs">
+      <DependentUpon>ProcessManuSubmit.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\ProcessUpdateFileNum.ashx.cs">
+      <DependentUpon>ProcessUpdateFileNum.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\RetColDetailStatic.ashx.cs">
+      <DependentUpon>RetColDetailStatic.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_articleList.aspx.cs">
+      <DependentUpon>stuplaza_articleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_articleList.aspx.designer.cs">
+      <DependentUpon>stuplaza_articleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_articleListBySector.aspx.cs">
+      <DependentUpon>stuplaza_articleListBySector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_articleListBySector.aspx.designer.cs">
+      <DependentUpon>stuplaza_articleListBySector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_ColDetail.ashx.cs">
+      <DependentUpon>stuplaza_ColDetail.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_Column_xxgk.aspx.cs">
+      <DependentUpon>stuplaza_Column_xxgk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_Column_xxgk.aspx.designer.cs">
+      <DependentUpon>stuplaza_Column_xxgk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_filecomDetail.aspx.cs">
+      <DependentUpon>stuplaza_filecomDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_filecomDetail.aspx.designer.cs">
+      <DependentUpon>stuplaza_filecomDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_fileDetail.aspx.cs">
+      <DependentUpon>stuplaza_fileDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_fileDetail.aspx.designer.cs">
+      <DependentUpon>stuplaza_fileDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_fileList.aspx.cs">
+      <DependentUpon>stuplaza_fileList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_fileList.aspx.designer.cs">
+      <DependentUpon>stuplaza_fileList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_fileListBySector.aspx.cs">
+      <DependentUpon>stuplaza_fileListBySector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_fileListBySector.aspx.designer.cs">
+      <DependentUpon>stuplaza_fileListBySector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_FirstColDynmic.aspx.cs">
+      <DependentUpon>stuplaza_FirstColDynmic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_FirstColDynmic.aspx.designer.cs">
+      <DependentUpon>stuplaza_FirstColDynmic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_FirstColStatic.aspx.cs">
+      <DependentUpon>stuplaza_FirstColStatic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_FirstColStatic.aspx.designer.cs">
+      <DependentUpon>stuplaza_FirstColStatic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_FirstColumn.aspx.cs">
+      <DependentUpon>stuplaza_FirstColumn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_FirstColumn.aspx.designer.cs">
+      <DependentUpon>stuplaza_FirstColumn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_Index.aspx.cs">
+      <DependentUpon>stuplaza_Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_Index.aspx.designer.cs">
+      <DependentUpon>stuplaza_Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_manuDetail.aspx.cs">
+      <DependentUpon>stuplaza_manuDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_manuDetail.aspx.designer.cs">
+      <DependentUpon>stuplaza_manuDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_manuList.aspx.cs">
+      <DependentUpon>stuplaza_manuList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_manuList.aspx.designer.cs">
+      <DependentUpon>stuplaza_manuList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_newsDetail.aspx.cs">
+      <DependentUpon>stuplaza_newsDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_newsDetail.aspx.designer.cs">
+      <DependentUpon>stuplaza_newsDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_noticeDetail.aspx.cs">
+      <DependentUpon>stuplaza_noticeDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_noticeDetail.aspx.designer.cs">
+      <DependentUpon>stuplaza_noticeDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_serviceDetail.aspx.cs">
+      <DependentUpon>stuplaza_serviceDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_serviceDetail.aspx.designer.cs">
+      <DependentUpon>stuplaza_serviceDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_serviceList.aspx.cs">
+      <DependentUpon>stuplaza_serviceList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_serviceList.aspx.designer.cs">
+      <DependentUpon>stuplaza_serviceList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_topicList.aspx.cs">
+      <DependentUpon>stuplaza_topicList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_topicList.aspx.designer.cs">
+      <DependentUpon>stuplaza_topicList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_topicpicList.aspx.cs">
+      <DependentUpon>stuplaza_topicpicList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontUI\stuplaza_topicpicList.aspx.designer.cs">
+      <DependentUpon>stuplaza_topicpicList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getdate.ashx.cs">
+      <DependentUpon>getdate.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GetManusById.ashx.cs">
+      <DependentUpon>GetManusById.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ImgChange.aspx.cs">
+      <DependentUpon>ImgChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImgChange.aspx.designer.cs">
+      <DependentUpon>ImgChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InitialColumnAdvice.ashx.cs">
+      <DependentUpon>InitialColumnAdvice.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="loadAllColumn.ashx.cs">
+      <DependentUpon>loadAllColumn.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="loadAllTopic.ashx.cs">
+      <DependentUpon>loadAllTopic.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="LoadDetailById.ashx.cs">
+      <DependentUpon>LoadDetailById.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginSystem.aspx.cs">
+      <DependentUpon>LoginSystem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginSystem.aspx.designer.cs">
+      <DependentUpon>LoginSystem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManuScriptDetail.ashx.cs">
+      <DependentUpon>ManuScriptDetail.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ManuScriptEdit.ashx.cs">
+      <DependentUpon>ManuScriptEdit.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReviewManuCount.aspx.cs">
+      <DependentUpon>ReviewManuCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewManuCount.aspx.designer.cs">
+      <DependentUpon>ReviewManuCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewManuManager.aspx.cs">
+      <DependentUpon>ReviewManuManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewManuManager.aspx.designer.cs">
+      <DependentUpon>ReviewManuManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewHandle.ashx.cs">
+      <DependentUpon>ReviewHandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewManu.aspx.cs">
+      <DependentUpon>ReviewManu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewManu.aspx.designer.cs">
+      <DependentUpon>ReviewManu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewManuNo.aspx.cs">
+      <DependentUpon>ReviewManuNo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewManuNo.aspx.designer.cs">
+      <DependentUpon>ReviewManuNo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowArticle.aspx.cs">
+      <DependentUpon>ShowArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowArticle.aspx.designer.cs">
+      <DependentUpon>ShowArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowColumn.aspx.cs">
+      <DependentUpon>ShowColumn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowColumn.aspx.designer.cs">
+      <DependentUpon>ShowColumn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowFile.aspx.cs">
+      <DependentUpon>ShowFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowFile.aspx.designer.cs">
+      <DependentUpon>ShowFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTopic.aspx.cs">
+      <DependentUpon>ShowTopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowTopic.aspx.designer.cs">
+      <DependentUpon>ShowTopic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowUser.aspx.cs">
+      <DependentUpon>ShowUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowUser.aspx.designer.cs">
+      <DependentUpon>ShowUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stuplaza_BgIndex.Master.cs">
+      <DependentUpon>stuplaza_BgIndex.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stuplaza_BgIndex.Master.designer.cs">
+      <DependentUpon>stuplaza_BgIndex.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bkgroundjs\uploadify\uploadify.fla" />
+    <Content Include="ArticleUploadHander.ashx" />
+    <Content Include="ArticleKindEditorProcess.ashx" />
+    <Content Include="frontUI\indexNewsHandle.ashx" />
+    <Content Include="loadAllTopic.ashx" />
+    <Content Include="ArticlePostHandle.ashx" />
+    <Content Include="loadAllColumn.ashx" />
+    <Content Include="frontUI\stuplaza_ColDetail.ashx" />
+    <Content Include="frontUI\RetColDetailStatic.ashx" />
+    <Content Include="LoadDetailById.ashx" />
+    <Content Include="stuplaza_BgIndex.Master" />
+    <Content Include="FileHandle.ashx" />
+    <Content Include="ReviewHandle.ashx" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\combobox_data.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datagrid_data.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datagrid_data2.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\datagrid_data3.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\form_data.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\propertygrid_data.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\treegrid_data.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\treegrid_data2.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\treegrid_data3.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\treegrid_subdata.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\demo\tree_data.json" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\default\images\Thumbs.db" />
+    <Content Include="bkgroundjs\jquery-easyui-1.3.1\themes\gray\images\Thumbs.db" />
+    <Content Include="ManuScriptDetail.ashx" />
+    <Content Include="ManuScriptEdit.ashx" />
+    <Content Include="GetManusById.ashx" />
+    <Content Include="getdate.ashx" />
+    <Content Include="frontUI\font\fontawesome-webfont.eot" />
+    <Content Include="frontUI\font\fontawesome-webfont.ttf" />
+    <Content Include="frontUI\font\fontawesome-webfont.woff" />
+    <Content Include="frontUI\font\FontAwesome.otf" />
+    <Content Include="frontUI\ProcessManuSubmit.ashx" />
+    <Content Include="frontUI\ProcessUpdateFileNum.ashx" />
+    <Content Include="InitialColumnAdvice.ashx" />
+    <Content Include="controller.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArticleContentFile\" />
+    <Folder Include="ArticleUploadFile\doc\" />
+    <Folder Include="ArticleUploadFile\img\" />
+    <Folder Include="ArticleUploadFile\pdf\" />
+    <Folder Include="ArticleUploadFile\rar\" />
+    <Folder Include="ArticleUploadFile\xsl\" />
+    <Folder Include="FileSavePath\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="whut.stuplaza.BLL\whut.stuplaza.BLL.csproj">
+      <Project>{79962f90-527b-4757-b89e-c2ae74bd3913}</Project>
+      <Name>whut.stuplaza.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="whut.stuplaza.COMMON\whut.stuplaza.COMMON.csproj">
+      <Project>{e9552a34-886c-4eaf-a59d-00aa37fc5fe0}</Project>
+      <Name>whut.stuplaza.COMMON</Name>
+    </ProjectReference>
+    <ProjectReference Include="whut.stuplaza.MODEL\whut.stuplaza.MODEL.csproj">
+      <Project>{e85e8c33-045f-4a8c-9a5f-c0a0a5111066}</Project>
+      <Name>whut.stuplaza.MODEL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:31092/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

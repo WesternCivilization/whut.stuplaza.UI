@@ -1,0 +1,77 @@
+﻿body {
+}
+ .wrap 
+        {
+            width: 1000px;
+            margin: auto;
+            overflow: auto;
+        }
+        .bread_nav 
+        {
+            float: left;
+            width: 980px;
+            height: 42px;
+            line-height: 42px;
+            padding-left: 20px;
+            color: #fff;
+            background: #666;
+            border-radius: 10px;
+        }
+        .in_content 
+        {
+            float: left;
+            width: 680px;
+            padding: 20px 0;
+            height:200px;
+            background-color:#ff6a00;
+        }
+        .text_cont 
+        {
+              overflow: auto;
+              zoom: 1;
+              
+        }
+        .art_tit h2 
+        {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 30px;
+            margin-top: 10px;
+        }
+        .art_info 
+        {
+            background: #f6f6ef;
+            border-top: #e8e9d8 1px solid;
+            height: 22px;
+            line-height: 22px;
+            border-bottom: #e8e9d8 1px solid;
+            margin: 5px 80px;
+            text-align: center;
+        }
+        .side_bar 
+        {
+            float:right;
+        }
+        .side_nav 
+        {
+            width: 300px;
+            margin-top: 10px;
+            background: #eeede9;
+        }
+        .side_nav ul
+        {
+              padding: 20px 0;
+              font-size: 16px;
+        }
+            .side_nav li 
+            {
+                line-height: 40px;
+                background: url(arrow1.png) no-repeat 20px center;
+                border-bottom: 1px solid #bbb;
+                text-indent: 40px;
+            }
+            .side_nav a 
+            {
+                text-decoration:none;
+            }

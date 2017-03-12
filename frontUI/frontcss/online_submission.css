@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+/*主体规范
+body{background:url(../images/tit/bg_Index.png) no-repeat center top; font-size:14px; overflow-x:hidden;position:absolute;} 
+#web_bg{position:absolute; width:100%; height:100%; z-index:-100; border:none;}
+#container{width:100%; margin:0 auto;}
+#main{width:990px; margin:0 auto;}
+
+头部样式
+#header{width:100%; height:80px; margin:0 auto;background-color:#8c1515;position:absolute;}
+#header .wrap{height:80px; width:1200px;margin: auto;position: absolute;top: 30px;; left: 0; bottom: 0; right: 0;}
+.tit_logo{width:770px; height:50px; float:left; background: url(../images/tit/title_white.png) no-repeat;}
+.tit_right{height:50px; float:right;}
+.tit_right a{text-decoration:none; color:#fff; display:block; float:right;}
+.tit_right a:hover{color:#567fe6;}
+
+搜索栏
+.searchform{width:150px; height:30px; background:url(../images/tit/search.png) no-repeat; margin-top:14px; float:right;}
+.searchform input{width:100px; height:23px; line-height:23px; padding-right:10px; background:none; border:none; outline:none; padding-top:5px; margin-left:10px; color:#999; font-size:12px;}
+.searchform img{position:relative; right:5px; top:4px; cursor:pointer;}
+
+12个导航条
+#nav{width:100%; height:45px;background:#000;margin-top:80px;}
+#nav ul{ width:1350px;height:45px;}
+#nav ul li{list-style:none; float:left; width:112px; height:45px; line-height:45px; margin:0; background-color:#000; text-align:center; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -ms-border-radius:3px; -o-border-radius:3px; font-size:16px;font-family:'Microsoft YaHei UI';}
+#nav ul li:hover{background-color:#fff;}
+#nav ul li a{text-decoration:none; color:#fff; display:inline !important;}
+#nav ul li a:hover{color:#f57f17;font-weight:bold;}
+#nav img {width:15px;height:15px;background-position:left;position:relative;left:-7px;top:2px;}*/
+
+/*在线投稿*/
+#content{width:988px; height:720px; margin-top:10px; border:1px solid #999; background-color:#fff;}
+#content form{margin-top:30px; margin-left:40px;}
+#content form .list{height:32px; line-height:32px; margin-bottom:15px;}
+span .error{color:red;}
+#content form span.name{display:block; float:left; width:120px; height:30px; border:1px solid #ccc; color:#4b4b4b; font-size:16px; text-align:center;}
+#content form input, #content form select{margin-left:40px; height:30px; border:1px solid #4b4b4b; font-size:16px;}
+#content form select{height:32px; width:177px; padding-left:30px;}
+#content #file{width:350px; position:relative; padding-top:3px; height:28px;}
+#content form .edit_place{float:left; position:relative; top:-45px; left:163px; width:700px; height:365px;}
+#content section {width:700px; margin:auto; text-align:center;}
+#content .btn{width:59px; height:31px; line-height:31px; border:none; font-size:18px; font-weight:bold; background:url(../images/list_page/submission/dark_bg.png) no-repeat;}
+#content #view{ margin-left:20px;}
+#content #upload{ margin-left:2px;}
+#content #submit, #content #cancel, #content #reset{float:left; margin-left:10px;} 
+#content form .system{position:relative; left:0; top:-320px; width:116px; height:250px; line-height:25px;}
+#content form .system span{display:block;}

@@ -1,0 +1,408 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>WeUI</title>
+    <link rel="stylesheet" href="css/weui.css"/>
+    <link rel="stylesheet" href="css/example.css"/>
+</head>
+<body ontouchstart>
+    <div class="container" id="container">
+
+    </div>
+
+<script type="text/html" id="tpl_home">
+<div class="bd">  
+    <img src="img/bg.png"></img>
+
+	<div class="button login">
+		<div class="bd spacing">
+		    <div class="button button_sp_area">
+		        <a href="#/button" class="weui_btn weui_btn_plain_default ">开始答题</a>
+		        <a href="javascript:;" class="weui_btn weui_btn_plain_primary">查看规则</a>
+		    </div>
+		</div>
+	</div>
+</div>
+</script>
+
+<script type="text/html" id="tpl_button">
+<div class="bd">
+    <div class="weui_cells_title">尊敬的某某某用户</div>
+    <div class="weui_cells">
+        <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+                <p>党章党史</p>
+            </div>
+        </div>
+
+
+<!--单选选项11-->
+    		<div class="weui_cells_title">我也不知道这是一道什么题目</div>
+		    <div class="weui_cells weui_cells_radio">
+		        <label class="weui_cell weui_check_label" for="x11">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio1" id="x11">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+
+
+		        <label class="weui_cell weui_check_label" for="x12">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio1" class="weui_check" id="x12" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+
+		       <label class="weui_cell weui_check_label" for="x13">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio1" id="x13">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+
+
+		        <label class="weui_cell weui_check_label" for="x14">
+
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio1" class="weui_check" id="x14" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		    </div>
+
+
+
+<!--单选选项12-->
+    		<div class="weui_cells_title">我也不知道这是一道什么题目</div>
+		    <div class="weui_cells weui_cells_radio">
+		        <label class="weui_cell weui_check_label" for="x21">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio2" id="x21">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		        <label class="weui_cell weui_check_label" for="x22">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio2" class="weui_check" id="x22" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		       <label class="weui_cell weui_check_label" for="x23">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio2" id="x23">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		        <label class="weui_cell weui_check_label" for="x24">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio2" class="weui_check" id="x24" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		    </div>	
+
+
+<!--单选选项13-->
+    		<div class="weui_cells_title">我也不知道这是一道什么题目</div>
+		    <div class="weui_cells weui_cells_radio">
+		        <label class="weui_cell weui_check_label" for="x31">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio3" id="x31">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		        <label class="weui_cell weui_check_label" for="x32">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio3" class="weui_check" id="x32" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		       <label class="weui_cell weui_check_label" for="x33">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio3" id="x33">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		        <label class="weui_cell weui_check_label" for="x34">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio3" class="weui_check" id="x34" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		    </div>		    	    
+    </div>
+
+<!-- button-->
+				<div class=" bd spacing">
+				    <div class="weui_progress">
+				        <div class="weui_progress_bar">
+				            <div class="weui_progress_inner_bar js_progress" style="width: 0%;"></div>
+				        </div>
+				        <a href="javascript:;" class="weui_progress_opr">
+				            <i class="weui_icon_cancel"></i>
+				        </a>
+				    </div>
+
+				        <div class="weui_btn_area">
+		                 <a href="#/toast" class="weui_btn weui_btn_plain_default ">按钮</a>
+    					</div>
+				</div>		    
+<!-- /button-->
+
+</script>
+
+
+
+
+<script type="text/html" id="tpl_toast">
+    <div class="weui_cells_title">尊敬的某某某用户</div>
+    <div class="weui_cells">
+        <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+                <p>党纪党纲</p>
+            </div>
+        </div>
+
+
+<!--单选选项11-->
+    		<div class="weui_cells_title">我也不知道这是一道什么题目</div>
+		    <div class="weui_cells weui_cells_radio">
+		        <label class="weui_cell weui_check_label" for="x11">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio1" id="x11">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+
+
+		        <label class="weui_cell weui_check_label" for="x12">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio1" class="weui_check" id="x12" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+
+		       <label class="weui_cell weui_check_label" for="x13">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio1" id="x13">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+
+
+		        <label class="weui_cell weui_check_label" for="x14">
+
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio1" class="weui_check" id="x14" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		    </div>
+
+
+
+<!--单选选项12-->
+    		<div class="weui_cells_title">我也不知道这是一道什么题目</div>
+		    <div class="weui_cells weui_cells_radio">
+		        <label class="weui_cell weui_check_label" for="x21">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio2" id="x21">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		        <label class="weui_cell weui_check_label" for="x22">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio2" class="weui_check" id="x22" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		       <label class="weui_cell weui_check_label" for="x23">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio2" id="x23">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		        <label class="weui_cell weui_check_label" for="x24">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio2" class="weui_check" id="x24" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		    </div>	
+
+
+<!--单选选项13-->
+    		<div class="weui_cells_title">我也不知道这是一道什么题目</div>
+		    <div class="weui_cells weui_cells_radio">
+		        <label class="weui_cell weui_check_label" for="x31">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio3" id="x31">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		        <label class="weui_cell weui_check_label" for="x32">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio3" class="weui_check" id="x32" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		       <label class="weui_cell weui_check_label" for="x33">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio3" id="x33">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		        <label class="weui_cell weui_check_label" for="x34">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" name="radio3" class="weui_check" id="x34" checked="checked">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		    </div>		    	    
+    </div>
+
+<!-- button-->
+				<div class=" bd spacing">
+				    <div class="weui_progress">
+				        <div class="weui_progress_bar">
+				            <div class="weui_progress_inner_bar js_progress" style="width: 0%;"></div>
+				        </div>
+				        <a href="javascript:;" class="weui_progress_opr">
+				            <i class="weui_icon_cancel"></i>
+				        </a>
+				    </div>
+				        <div class="weui_btn_area">
+		                 <a href="#/dialog" class="weui_btn weui_btn_plain_default ">按钮</a>
+    					</div>
+				</div>		    
+<!-- /button-->
+</script>
+
+
+<script type="text/html" id="tpl_dialog">
+    <div class="weui_cells_title">尊敬的某某某用户</div>
+    <div class="weui_cells">
+        <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+                <p>必备答题</p>
+            </div>
+        </div>
+
+
+<!--单选选项11-->
+    		<div class="weui_cells_title">我也不知道这是一道什么题目</div>
+		    <div class="weui_cells weui_cells_radio">
+		        <label class="weui_cell weui_check_label" for="x11">
+		            <div class="weui_cell_bd weui_cell_primary">
+		                <p>cell standard</p>
+		            </div>
+		            <div class="weui_cell_ft">
+		                <input type="radio" class="weui_check" name="radio1" id="x11">
+		                <span class="weui_icon_checked"></span>
+		            </div>
+		        </label>
+		    </div>
+
+<!-- button-->
+				<div class=" bd spacing">
+				    <div class="weui_progress">
+				        <div class="weui_progress_bar">
+				            <div class="weui_progress_inner_bar js_progress" style="width: 0%;"></div>
+				        </div>
+				        <a href="javascript:;" class="weui_progress_opr">
+				            <i class="weui_icon_cancel"></i>
+				        </a>
+				    </div>
+
+
+				        <div class="weui_btn_area home">
+		                 <a href="submit.html" class="weui_btn weui_btn_plain_default ">提交</a>
+    					</div
+				</div>		    
+<!-- /button-->
+</script>
+
+
+
+    <script src="js/zepto.min.js"></script>
+    <script src="js/router.min.js"></script>
+    <script src="js/example.js"></script>
+
+
+</body>
+</html>
