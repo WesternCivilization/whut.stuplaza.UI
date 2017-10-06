@@ -166,3 +166,10 @@ E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.COMMON\bin\Debug\whu
 E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.COMMON\obj\Debug\whut.stuplaza.COMMON.csprojResolveAssemblyReference.cache
 E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.COMMON\obj\Debug\whut.stuplaza.COMMON.dll
 E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.COMMON\obj\Debug\whut.stuplaza.COMMON.pdb
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.COMMON\bin\Debug\whut.stuplaza.COMMON.dll
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.COMMON\bin\Debug\whut.stuplaza.COMMON.pdb
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.COMMON\bin\Debug\whut.stuplaza.MODEL.dll
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.COMMON\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.COMMON\obj\Debug\whut.stuplaza.COMMON.csprojResolveAssemblyReference.cache
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.COMMON\obj\Debug\whut.stuplaza.COMMON.dll
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.COMMON\obj\Debug\whut.stuplaza.COMMON.pdb

@@ -107,3 +107,8 @@ E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.MODEL\bin\Debug\whut
 E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.MODEL\obj\Debug\whut.stuplaza.MODEL.csprojResolveAssemblyReference.cache
 E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.MODEL\obj\Debug\whut.stuplaza.MODEL.dll
 E:\信管协会\学工广场\whut.stuplaza.UI\whut.stuplaza.MODEL\obj\Debug\whut.stuplaza.MODEL.pdb
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.MODEL\bin\Debug\whut.stuplaza.MODEL.dll
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.MODEL\bin\Debug\whut.stuplaza.MODEL.pdb
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.MODEL\obj\Debug\whut.stuplaza.MODEL.csprojResolveAssemblyReference.cache
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.MODEL\obj\Debug\whut.stuplaza.MODEL.dll
+E:\信管协会\whut.stuplaza.UI\whut.stuplaza.MODEL\obj\Debug\whut.stuplaza.MODEL.pdb

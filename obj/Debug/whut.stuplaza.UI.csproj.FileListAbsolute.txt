@@ -396,3 +396,17 @@ E:\信管协会\学工广场\whut.stuplaza.UI\bin\whut.stuplaza.DAL.pdb
 E:\信管协会\学工广场\whut.stuplaza.UI\obj\Debug\whut.stuplaza.UI.csprojResolveAssemblyReference.cache
 E:\信管协会\学工广场\whut.stuplaza.UI\obj\Debug\whut.stuplaza.UI.dll
 E:\信管协会\学工广场\whut.stuplaza.UI\obj\Debug\whut.stuplaza.UI.pdb
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.UI.dll.config
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.UI.dll
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.UI.pdb
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.BLL.dll
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.COMMON.dll
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.MODEL.dll
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.DAL.dll
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.BLL.pdb
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.COMMON.pdb
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.MODEL.pdb
+E:\信管协会\whut.stuplaza.UI\bin\whut.stuplaza.DAL.pdb
+E:\信管协会\whut.stuplaza.UI\obj\Debug\whut.stuplaza.UI.csprojResolveAssemblyReference.cache
+E:\信管协会\whut.stuplaza.UI\obj\Debug\whut.stuplaza.UI.dll
+E:\信管协会\whut.stuplaza.UI\obj\Debug\whut.stuplaza.UI.pdb
